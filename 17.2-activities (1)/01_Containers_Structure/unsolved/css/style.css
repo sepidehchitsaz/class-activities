@@ -1,1 +1,25 @@
 /*  Hi! your going to write styles here in the next couple activities. */
+.header {
+    height:250px;
+    max-height:500px;
+    background-image: url(../images/upsBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#pagetopic{
+    text-align: center;
+}
+
+.color_container {
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.swatch {
+    height: 200px;
+    width: 170px;
+    border:1px solid
+}
