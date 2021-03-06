@@ -35,7 +35,7 @@ It is highly recommended to try out these commands in chromes web inspector to s
 
 }
 .justifyContent {
-  align-items: center;
+  align-items:;
   justify-content: space-between;
 /*
 - under this comment type out the css property justify-content.
@@ -50,6 +50,7 @@ It is highly recommended to try out these commands in chromes web inspector to s
 
 }
 .perfectlyCentered {
+;
 /*
 - Under this comment type out the css property of justify-content: center;
 - Then type out the css property align-items: center;
