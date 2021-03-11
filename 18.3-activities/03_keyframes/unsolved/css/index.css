@@ -1,9 +1,10 @@
 .bounceMe {
   /* Add the animation bounceArrow here */
-
+animation: bounceArrow .7s infinite;
 }
 .spinMe {
   /* Add the animation for spin on the line below  */
+  animation: spin 2s infinite;
 
 }
 #progressbar {
@@ -18,60 +19,91 @@
   height: 20px;
   border-radius: 5px;
   /* add the animation name here for the progress bar */
+  animation: loadbar 4s;
+  animation-fill-mode:forwards;
 }
 .movingBox {
   width: 50px;
   height: 50px;
   background-color: red;
   /* Add the animation name here to mox the box */
+  
+  
+  
+ 
+
 
 }
 
 
 @keyframes bounceArrow {
   from {
+    margin-top: 0;
 
   }
   50% {
+    margin-top: 7px;
 
   }
   to {
+    margin-top: 0;
 
   }
 }
 
 @keyframes spin {
   from {
+    transform:rotate(0deg)
 
   }
   to {
+    transform:rotate(360deg);
 
   }
 }
 
 @keyframes loadBar {
   from {
+    width: 40%;
 
   }
   to {
+    width: 100%;
 
   }
 }
 
 @keyframes movingBox {
   from {
+    background-color: chartreuse;
+    transform:translate3d(0px, 0px, 0px);
+    
+  
 
   }
   25% {
+    background-color: darkblue;
+    transform:translate3d(100px, 0px, 0px);
+  
 
   }
   50% {
+    background-color: darkmagenta;
+    transform:translate3d(50px, 300px, 0px);
+  
 
   }
   75% {
+    background-color: darkorange;
+    transform:translate3d(200px, 100px, 0px);
+ 
+
 
   }
   to {
+    background-color: red;
+    transform:translate3d(0px, 0px, 0px);
+  
 
   }
 }
