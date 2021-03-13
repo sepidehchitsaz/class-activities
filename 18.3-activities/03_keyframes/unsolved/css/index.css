@@ -27,6 +27,7 @@ animation: bounceArrow .7s infinite;
   height: 50px;
   background-color: red;
   /* Add the animation name here to mox the box */
+  animation: ;
   
   
   
