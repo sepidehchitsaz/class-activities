@@ -1,0 +1,6 @@
+#hero .jumbotrump{
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
